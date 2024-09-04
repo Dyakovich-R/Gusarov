@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+Input Group Component
+This project features a reusable InputGroup component that combines an input field, a label, and an optional annotation message. It is designed for use in forms where labeled input fields with additional information or validation messages are needed.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview
+The InputGroup component provides a clean and consistent way to manage input fields with associated labels and optional helper texts or validation messages. This component is intended to be used in various forms and UI elements where user input is required.
 
-Currently, two official plugins are available:
+Getting Started
+To get started with this project, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Prerequisites
+Make sure you have the following installed:
 
-## Expanding the ESLint configuration
+Node.js and npm (or yarn)
+Installation
+Clone the repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+git clone https://github.com/your-username/input-group-component.git
+Navigate to the project directory:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+cd input-group-component
+Install the dependencies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+bash
+npm install
+# or
+yarn install
+Running the Project
+To run the development server and see the InputGroup component in action, use the following command:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+bash
+npm start
+# or
+yarn start
+This will start a local development server and open the application in your default web browser.
+
+Running Storybook
+To view and interact with the component stories, run:
+
+bash
+npm run storybook
+# or
+yarn storybook
+This will start the Storybook server and open it in your default web browser, allowing you to see various states of the InputGroup component.
+

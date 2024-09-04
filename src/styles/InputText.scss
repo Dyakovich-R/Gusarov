@@ -1,0 +1,22 @@
+.input-text {
+  width: 300px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  &--error {
+    border-color: #dc3545;
+  }
+
+  &:disabled {
+    background-color: #f8f9fa;
+    cursor: not-allowed;
+  }
+}
