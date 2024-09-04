@@ -1,3 +1,5 @@
+DEMO_LINK: https://dyakovich-r.github.io/Gusarov/
+
 Input Group Component
 This project features a reusable InputGroup component that combines an input field, a label, and an optional annotation message. It is designed for use in forms where labeled input fields with additional information or validation messages are needed.
 
